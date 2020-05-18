@@ -1,0 +1,453 @@
+/*MOBILE FIRST*/
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #D9CFC1;
+    font-size: 1.1em;
+    line-height: 1,5em;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+#inicio{
+    min-height: 780px;
+    color: white;
+    text-align: center;
+}
+.option1 .option2{
+    position: absolute;
+}
+#btn {
+    background: none;
+    border: ridge black;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem 'Roboto Slab', sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+    position: relative;
+    top: 300px;
+  }
+#btn:hover{
+    color: white;
+    transform: scale(1.1);
+    border: ridge whitesmoke;
+}
+  
+#inicio .imagenInicio{
+    margin-top: 0em;
+
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background: #333333 url("./Imagenes/backgroundInicioMovil.jpg");
+    z-index: -1;
+    opacity: 0.75;
+}
+
+#inicio h1{
+    padding-top: 30px;
+    font-size: 1.9em;
+    padding-bottom: 35px;
+
+}
+
+#inicio li{
+    font-size: 1.3em;
+    line-height: 130px;
+    list-style: none;
+    border: #333333 1px;
+    box-sizing: border-box;
+}
+/*INICIO CSS*/
+/*RECORRIDO CSS*/
+
+#indiceGrid{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-auto-rows: 350px;
+    grid-gap: 1em;
+    min-height: 700px;
+    max-width: 100%;
+   
+}
+
+.recorridoGrid{
+    background: #B8956F;
+    padding: 1em;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.recorridoGrid:hover{
+    filter: sepia(35%);
+
+    transform: scale(1.05);
+}
+
+.recorridoGrid:nth-child(odd){
+    background:#C8AB84 ;
+}
+
+#marDeSueños{
+    background: black url("./Imagenes/GRIDmarDeSueños.png");
+    padding: 1em;
+    background-position: 0em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: #333333;
+    padding-top: 2em;
+    
+}
+
+#palacioEnLaArena{
+    background: black url("./Imagenes/GRIDde\ palacioEnLaArena.png");
+    padding: 1em;
+    background-position: .5em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: #333333;
+    padding-top: 2em;
+}
+#carrascoUnaFiesta{
+    background: black url("./Imagenes/GRIDde\ carrascoUnaFiesta.png");
+    padding: 1em;
+    background-position: 0em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: #333333;
+    padding-top: 2em;
+}
+#capitalDelTurismo{
+    background: black url("./Imagenes/GRIDcapitalDelTurismo.png");
+    background-position: -1.5em 0em;
+    background-repeat: no-repeat;
+    padding: 1em;
+    font-size: 1.5em;
+    color: #333333;
+    padding-top: 2em;
+}
+#musicaMaestros{
+    background: black url("./Imagenes/GRIDmusicaMaestro.jpg");
+    padding: 1em;
+    background-position: 1em 2em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    text-decoration: dotted underline white ;
+    color: black;
+    padding-top: 2em;
+}
+#historiaLlamaLaPuerta{
+    background: black url("./Imagenes/GRIDhistoriaLlamaLaPuerta.png");
+    padding: 1em;
+    background-position: 0em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: #333333;
+    padding-top: 2em;
+    
+}
+#acechoDelTiempo{
+    background: black url("./Imagenes/acechoDelTiempo.jpg");
+    padding: 1em;
+    background-position: .5em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 2em;
+}
+#rescateDeUnaLeyenda{
+    background: black url("./Imagenes/GRIDrescateDeUnaLeyenda.png");
+    padding: 1em;
+    background-position: 1em 1em;
+    background-repeat: no-repeat;
+    font-size: 1.5em;
+    color: black;
+    padding-top: 2em;
+    
+}
+
+
+
+
+/*CAPITULOS*/
+
+
+
+
+.capitulo{
+    min-height: 750px;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+
+
+/*EL LIBRO PRODUCT PAGE*/
+
+.productPage{
+    padding: 2em 0em 2em 0em;
+    width: 100%;
+    
+    display: block;
+    font-size: 1.3em;
+    font-family: 'Roboto Slab', sans-serif
+}
+
+.productPage header{
+    font-size: 1.8em;
+    padding: 0.5em;
+}
+
+#productPageOptions{
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+ }
+
+#productPageImage img{
+    background-color: #A6896A;
+    width: 80%;
+    opacity: 0.8;
+    padding: .2em 10% .2em 10%;
+    border-radius: .2em;
+}
+
+#productPageOptions p{
+    font-size: .5em;
+}
+
+
+
+
+/*GALERIA DE FOTOS*/
+
+
+
+
+.galeriaFotos{
+    height: 1400px;
+    background-color: #F1E9B1;
+    border: thin black dotted;
+    border-radius: 6px;
+}
+
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax( 200px , auto);
+    
+}
+
+.galeriaGrid{
+    background-color: #333333 ;
+    border-radius: 3px;
+}
+#vertical{
+    grid-row: 1/3;
+    background: url("./Imagenes/GALERIAvertica.jpg") no-repeat;
+    background-size: 100%;
+    height: 400px;
+    align-items: center;
+}
+
+#horizontal{
+    grid-column: 1/3;
+    background: url("./Imagenes/musicaMaestro.jpg") no-repeat;
+    background-size: 100%;
+    background-position: initial;
+    min-height: 280px;
+    justify-items: space-evenly;
+}
+#cuadrado1{
+    background: url("./Imagenes/historiaLlamaLaPuerta.png") no-repeat;
+    background-size: 100%;
+    justify-content: space-evenly;
+}
+#cuadrado2{
+    background: url("./Imagenes/rescateDeUnaLeyenda.jpg") no-repeat;
+    background-size: 100%;
+    justify-content: space-evenly;
+}
+#cuadrado3{
+    background: url("./Imagenes/acechoDelTiempo.jpg") no-repeat;
+    background-size: 100%;
+    justify-items: space-evenly;
+}
+#cuadrado4{
+    background: url("./Imagenes/7969_rsr001_00_p_1024x768.jpg") no-repeat;
+    background-size: 100%;
+}
+#cuadrado5{
+    background: url("./Imagenes/7969_ho_05_p_1024x768.jpg") no-repeat;
+    background-size: 100%;
+}
+
+#cuadrado6{
+    background: url("./Imagenes/sofitel-montevideo-casino-carrasco-spa_155189416745.jpg") no-repeat;
+    background-size: 100%;
+}
+#showcase{
+    display: none;
+}
+
+/*FORMULARIO*/
+.form{
+    width: 100%;
+    height: 1300px;
+    display: block;
+    font-size: 1.02em;   
+    font-family:  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+
+.form header{
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.form #btn{
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+
+input[type=text], input[type=email]{
+    display: block;
+    margin: 4px 2%;
+    width: 94%;
+    height: 20px;
+}
+input[type="radio"] {
+    display: none;
+    position: absolute;
+    width: 100%;
+    appearance: none;
+}
+
+input[type=text-area]{
+    width: 50%;
+    min-height: 100px;
+    display: inline-block;
+    background-color: #F1E9B1;
+    font-size: .7em;
+    text-align: start;
+}
+input[type=time]{
+    width: auto;
+    display: inline-block;
+    margin: 1em;
+}
+
+#opcion{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#opcion1921{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+.radioBtn{
+    position: relative;
+    display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    width: 50%;
+    height: 35px;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: #F1E9B1;
+    opacity: 0.5;
+    padding: 1px;
+    
+}
+.radioBtn:hover{
+    transform: scale(0.9);
+    background-color: #817559;
+    
+}
+.radioBtn label:hover{
+    transform: scale(1.15);
+    background-color: #AEA37C;
+    cursor: pointer;
+}
+.radioBtn label{
+    display: block;
+	background: #F2EBB3;
+	
+	border-radius: 5px;
+	padding: 10px 20px;
+
+}
+
+
+
+
+/*NOT MOBILE INTERFACE*/
+@media (min-width: 650px){
+    #inicio .imagenInicio{
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 900px;
+        background: #333333 url("./Imagenes/sofitel-montevideo-casino-carrasco-spa_155189416745.jpg");
+        z-index: -1;
+        opacity: 0.75;
+    }
+    #indiceGrid{
+        display: grid;
+        grid-template-rows: 1fr fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        box-sizing: content-box;
+
+    }
+    .productPage{
+        width: 100%;
+        display: flex;
+        flex: 2fr 1fr;
+    }
+    #productPageOptions{
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px;
+     }
+    .productPage img{
+        width: 100%;
+    }
+    .form{
+        width: 900px;
+        height: 800px;
+        align-items: center;
+    }
+    input[type=text], input[type=email]{
+        display: block;
+        margin: 4px 2%;
+        width: 94%;
+        height: 20px;
+    }
+    
+}
